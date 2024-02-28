@@ -1,0 +1,43 @@
+﻿<Application x:Class="WpfCafe.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfCafe"
+             StartupUri="View/Windows/AddEmployeeWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Padding" Value="20 10" />
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
+        <Style TargetType="DatePicker">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Padding" Value="5 0" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Padding" Value="5 0" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Padding" Value="5 0" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        
+        
+    </Application.Resources>
+</Application>
